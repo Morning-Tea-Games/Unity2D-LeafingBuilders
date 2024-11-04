@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Leaf
+  - DoneLeaf
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 214841495
+    locked: 0
+  - name: BackgroundBarticles
+    uniqueID: 1419994305
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tree
+    uniqueID: 1130824423
+    locked: 0
+  - name: Moss
+    uniqueID: 1676249955
+    locked: 0
+  - name: Tunnel
+    uniqueID: 3094893933
+    locked: 0
+  - name: Entity
+    uniqueID: 2612677511
+    locked: 0
+  - name: Player
+    uniqueID: 40250205
+    locked: 0
+  - name: Leaves
+    uniqueID: 3161077985
+    locked: 0
+  - name: UI
+    uniqueID: 1852672803
+    locked: 0
