@@ -15,20 +15,18 @@ namespace Entities
         [SerializeField]
         private Transform _back;
 
-        private Transform _playerTransform;
+        private Transform _target;
 
         private void Start()
         {
-            _playerTransform = ServiceController_Game
-                .ServiceLocator.GetService<PlayerTransformService>()
-                .GetPlayerTransform();
+            _target = Camera.main.transform;
         }
 
         private void Update()
         {
-            _fore.position = _playerTransform.position / 5f;
-            _middle.position = _playerTransform.position / 15f;
-            _back.position = _playerTransform.position / 25f;
+            _fore.position = _target.position / 5f;
+            _middle.position = _target.position / 15f;
+            _back.position = _target.position / 25f;
         }
     }
 }
