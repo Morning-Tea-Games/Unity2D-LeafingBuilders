@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/_Presentation/Scenes/Settings.unity
     guid: 38f8e4a2786c3cc42966363c57739b3b
   - enabled: 1
+    path: Assets/_Presentation/Scenes/Tutorial.unity
+    guid: e9767c44e992f674290c2b8a09ffc130
+  - enabled: 1
     path: Assets/_Presentation/Scenes/Game.unity
     guid: 5bf5a384da198ae4dbaad4c3d853af40
   - enabled: 1
