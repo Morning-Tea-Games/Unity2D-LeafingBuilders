@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using DG.Tweening;
 using GameData;
 using Services;
@@ -25,6 +26,9 @@ namespace Entities
 
         [SerializeField]
         private string _noTransitionMessage;
+
+        [SerializeField]
+        private GameObject _interferingObject;
 
         private bool _canTeleport;
         private static bool _isTeleporting;
@@ -136,6 +140,11 @@ namespace Entities
         /// <returns>True, если найден хотя бы один объект с заданным тегом; иначе false.</returns>
         private bool LeafOff(string tag, Transform transformToCheck)
         {
+            if (_interferingObject)
+            {
+                return true;
+            }
+
             // Проверяем все дочерние объекты
             foreach (Transform child in transformToCheck)
             {
