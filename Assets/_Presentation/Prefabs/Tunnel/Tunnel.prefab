@@ -211,6 +211,8 @@ MonoBehaviour:
   _myBranch: {fileID: 0}
   _noTransitionMessage: Complete all tasks to move forward
   _interferingObject: {fileID: 0}
+  _endGame: 0
+  _endMessage: 
 --- !u!70 &3138364633000242912
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -342,7 +344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press E
+  m_text: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

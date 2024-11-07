@@ -855,9 +855,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: "Builder: Good job mate! All done with this tree! Thanks for helping!
-        Although this is the end for now maybe we\u2019ll add new trees later on,
-        thanks for playing!"
+      value: "\u0425\u0435\u043B\u0435\u043D: \u0412\u043E\u0442 \u0438 \u0432\u0441\u0451,
+        \u044D\u0442\u043E \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F
+        \u0432\u0435\u0442\u043A\u0430 \u0438 \u0441 \u044D\u0442\u0438\u043C \u0434\u0435\u0440\u0435\u0432\u043E\u043C
+        \u043F\u043E\u043A\u043E\u043D\u0447\u0435\u043D\u043D\u043E"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
@@ -1926,16 +1927,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: 'Misha: Why are the owls always watching us work?'
+      value: "\u041C\u0438\u0448\u0430: \u041F\u043E\u0447\u0435\u043C\u0443 \u0441\u043E\u0432\u044B
+        \u0432\u0441\u0435\u0433\u0434\u0430 \u0442\u0430\u043A \u0441\u0442\u0440\u0430\u043D\u043D\u043E
+        \u0437\u0430 \u043D\u0430\u043C\u0438 \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u044E\u0442?"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
-      value: 'Darina: I wish the owls would mind their own feathers.'
+      value: "\u0414\u0430\u0440\u0438\u043D\u0430: \u042F \u0431\u044B \u0445\u043E\u0442\u0435\u043B\u0430
+        \u0447\u0442\u043E\u0431\u044B \u0441\u043E\u0432\u044B \u043E\u0442 \u043D\u0430\u0441
+        \u043E\u0442\u0441\u0442\u0430\u043B\u0438"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[2]
-      value: 'Misha: If only the owls would stop getting in the way, this job would
-        be so much easier.'
+      value: "\u041C\u0438\u0448\u0430: \u0415\u0441\u043B\u0438 \u0431\u044B \u0441\u043E\u0432\u044B
+        \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u043B\u0438 \u043C\u0435\u0448\u0430\u0442\u044C,
+        \u044D\u0442\u0430 \u0440\u0430\u0431\u043E\u0442\u0430 \u0431\u044B\u043B\u0430
+        \u0431\u044B \u043D\u0430\u043C\u043D\u043E\u0433\u043E \u043F\u0440\u043E\u0449\u0435."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9175,15 +9182,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: 'Sasha: Feels like autumn never ends...'
+      value: "\u0421\u0430\u0448\u0430: \u041A\u0430\u0436\u0435\u0442\u0441\u044F,
+        \u0447\u0442\u043E \u043E\u0441\u0435\u043D\u044C \u043D\u0438\u043A\u043E\u0433\u0434\u0430
+        \u043D\u0435 \u043A\u043E\u043D\u0447\u0438\u0442\u0441\u044F..."
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
-      value: 'Sasha: The view from here is amazing'
+      value: "\u0421\u0430\u0448\u0430: \u0412\u0438\u0434 \u043E\u0442\u0441\u044E\u0434\u0430
+        \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u043F\u043E\u0442\u0440\u044F\u0441\u0430\u044E\u0449\u0438\u0439"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[2]
-      value: 'Sasha: Look at that sky, absolutely beautiful!'
+      value: "\u0421\u0430\u0448\u0430: \u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438
+        \u043D\u0430 \u043D\u0435\u0431\u043E, \u043E\u043D\u043E \u0442\u0430\u043A\u043E\u0435
+        \u043A\u0440\u0430\u0441\u0438\u0432\u043E\u0435!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9267,24 +9279,37 @@ PrefabInstance:
       value: 6.15
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
+      propertyPath: _endGame
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: 'Sonya: I think I''m getting better at this.'
+      value: "\u0421\u043E\u043D\u044F: \u042F \u0434\u0443\u043C\u0430\u044E, \u0443
+        \u043C\u0435\u043D\u044F \u044D\u0442\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F
+        \u0432\u0441\u0451 \u043B\u0443\u0447\u0448\u0435 \u0438 \u043B\u0443\u0447\u0448\u0435"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
-      value: 'Sonya: Hey, I''m starting to get the hang of this!'
+      value: "\u0421\u043E\u043D\u044F: \u0421\u043B\u0443\u0448\u0430\u0439, \u044F
+        \u0443\u0436\u0435 \u043F\u043E\u0447\u0442\u0438 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B!"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[2]
-      value: 'Sonya: Practice really does make perfect!'
+      value: "\u0421\u043E\u043D\u044F: \u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430
+        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+        \u043A\u043B\u044E\u0447 \u0443\u0441\u043F\u0435\u0445\u0443!"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[3]
-      value: 'Sonya: I must be a pro now, look at how smooth that cut was!'
+      value: "\u0421\u043E\u043D\u044F: \u0422\u0435\u043F\u0435\u0440\u044C \u044F,
+        \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043F\u0440\u043E\u0444\u0438,
+        \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0438, \u043A\u0430\u043A\u043E\u0439
+        \u0440\u043E\u0432\u043D\u044B\u0439 \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0441\u044F
+        \u0441\u0440\u0435\u0437!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10147,7 +10172,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Resume
+  m_text: "\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d9b4507e3c4c874e9379163b31b0af2, type: 2}
   m_sharedMaterial: {fileID: 3042933211469050930, guid: 5d9b4507e3c4c874e9379163b31b0af2, type: 2}
@@ -10386,9 +10411,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: 'Builder: Hey, laborer. Your job is to maintain the leaves. Green ones
-        - repaint, yellow ones - tear off, and rotten ones will fall off by themselves
-        if you jump. Only the cat''s in the way. He must be chased away'
+      value: "\u0410\u0434\u0430\u043C: \u0412\u043E\u0442 \u0438 \u0442\u0432\u043E\u0435
+        \u043F\u0435\u0440\u0432\u043E\u0435 \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u043E\u0435
+        \u0434\u0435\u0440\u0435\u0432\u043E, \u0443\u0434\u0430\u0447\u0438!"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
@@ -10511,11 +10536,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: 'Varya: Just a few more leaves to go!'
+      value: "\u0412\u044F\u0440\u0430: \u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C
+        \u0432\u0441\u0435\u0433\u043E \u043D\u0435\u043C\u043D\u043E\u0433\u043E"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
-      value: 'Varya: Ugh, mornings. Give me an afternoon shift any day.'
+      value: "\u0412\u0430\u0440\u044F: \u0424\u0443, \u0443\u0442\u0440\u043E. \u041D\u0435\u043D\u0430\u0432\u0438\u0436\u0443
+        \u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0441\u043F\u0440\u043E\u0441\u043E\u043D\u044C\u044F"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[2]
@@ -11261,7 +11288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back to menu
+  m_text: "\u043D\u0430\u0437\u0430\u0434 \u0432 \u043C\u0435\u043D\u044E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d9b4507e3c4c874e9379163b31b0af2, type: 2}
   m_sharedMaterial: {fileID: 3042933211469050930, guid: 5d9b4507e3c4c874e9379163b31b0af2, type: 2}
@@ -13639,7 +13666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pause
+  m_text: "\u041F\u0430\u0443\u0437\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d9b4507e3c4c874e9379163b31b0af2, type: 2}
   m_sharedMaterial: {fileID: 3042933211469050930, guid: 5d9b4507e3c4c874e9379163b31b0af2, type: 2}
@@ -13936,23 +13963,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[0]
-      value: 'Alena: Just a few more leaves to go!'
+      value: "\u0410\u043B\u0435\u043D\u0430: \u041D\u0430 \u044D\u0442\u043E\u043C
+        \u0434\u0435\u0440\u0435\u0432\u0435 \u0443\u0436\u0435 \u043F\u043E\u0447\u0442\u0438
+        \u0432\u0441\u0451!"
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[1]
-      value: 'Alena: Almost done here!'
+      value: "\u0410\u043B\u0435\u043D\u0430: \u0414\u0430\u0432\u0430\u0439\u0442\u0435
+        \u0443\u0436\u0435 \u043F\u043E\u043A\u043E\u043D\u0447\u0438\u043C \u0441
+        \u044D\u0442\u0438\u043C, \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C
+        \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0435\u043C\u043D\u043E\u0433\u043E
+        \u0441\u043E\u043A\u0440\u0430\u0442\u0438\u0442\u044C."
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[2]
-      value: 'Alena: This tree''s almost leaf-free!'
+      value: "\u0410\u043B\u0435\u043D\u0430: \u0418 \u043F\u043E\u0447\u0435\u043C\u0443
+        \u0432\u0441\u0435 \u0433\u043E\u0432\u043E\u0440\u044F\u0442, \u0447\u0442\u043E
+        \u0437\u0434\u0435\u0441\u044C \u043E\u043F\u0430\u0441\u043D\u043E \u0441\u0438\u0434\u0435\u0442\u044C."
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[3]
-      value: 'Alena: Let''s finish strong, only a few more to cut.'
+      value: 'Alena: Everyone says it''s dangerous to sit here.'
       objectReference: {fileID: 0}
     - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: textOptions.Array.data[4]
@@ -14142,7 +14177,7 @@ PrefabInstance:
       objectReference: {fileID: 1536270151}
     - target: {fileID: 8794815735184535386, guid: 426528eb255774c4b9c63238311ebd75, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14200,6 +14235,27 @@ PrefabInstance:
     - target: {fileID: 8284554106411946656, guid: 485640b36bc598348babe06237feacf9, type: 3}
       propertyPath: m_Name
       value: GychNPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
+      propertyPath: _endGame
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
+      propertyPath: textOptions.Array.data[0]
+      value: "\u0413\u044F\u0447: \u041D\u0435 \u043C\u0435\u0448\u0430\u0439 \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430!
+        \u044F \u043E\u0431\u0435\u0434\u0430\u044E!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
+      propertyPath: textOptions.Array.data[1]
+      value: "\u0413\u044F\u0447: \u041F\u043E\u0434\u043E\u0439\u0434\u0438 \u043F\u043E\u043F\u043E\u0437\u0436\u0435,
+        \u043E\u0431\u0435\u0434 - \u0441\u0430\u043C\u0430\u044F \u0432\u0430\u0436\u043D\u0430\u044F
+        \u0447\u0430\u0441\u0442\u044C \u0434\u043D\u044F!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8502444357468050298, guid: 485640b36bc598348babe06237feacf9, type: 3}
+      propertyPath: textOptions.Array.data[2]
+      value: "\u0413\u044F\u0447: \u041B\u0438\u0441\u0442\u044C\u044F \u043C\u043E\u0433\u0443\u0442
+        \u043F\u043E\u0434\u043E\u0436\u0434\u0430\u0442\u044C, \u0430 \u043C\u043E\u0439
+        \u0431\u0443\u0442\u0435\u0440\u0431\u0440\u043E\u0434- \u043D\u0435\u0442."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
