@@ -14,14 +14,7 @@ public class PauseManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (_pauseMenu.activeSelf)
-            {
-                Hide();
-            }
-            else
-            {
-                Show();
-            }
+            Switch();
         }
     }
 
@@ -35,5 +28,17 @@ public class PauseManager : MonoBehaviour
     {
         _pauseMenu.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void Switch()
+    {
+        if (_pauseMenu.activeSelf)
+        {
+            Hide();
+        }
+        else
+        {
+            Show();
+        }
     }
 }

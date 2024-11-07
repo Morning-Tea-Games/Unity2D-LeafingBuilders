@@ -51,6 +51,11 @@ namespace Entities
             _input.OnActivate += Activate;
         }
 
+        // private void Update()
+        // {
+        //     Debug.Log(_canTeleport);
+        // }
+
         private void OnDestroy()
         {
             _input.OnActivate -= Activate;
@@ -74,6 +79,8 @@ namespace Entities
 
         private void Activate()
         {
+            Debug.Log("Activate Teleport");
+
             if (!_canTeleport || _isTeleporting)
                 return;
 
@@ -118,6 +125,14 @@ namespace Entities
 
             if (_endGame)
             {
+                Debug.Log("Enable player control");
+                // Возвращаем возможность взаимодействовать
+                _player.Rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
+                _input.Enabled = true;
+
+                _isTeleporting = false;
+                Debug.Log("Done");
+
                 OnEndGame?.Invoke(_endMessage);
                 yield break;
             }
