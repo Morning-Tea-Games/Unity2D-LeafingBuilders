@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using DG.Tweening;
 using GameData;
@@ -8,6 +9,8 @@ namespace Entities
 {
     public class TunnelTransition : MonoBehaviour
     {
+        public event Action<string> OnEndGame;
+
         [SerializeField]
         private LayerMask _playerLayer;
 
@@ -26,6 +29,15 @@ namespace Entities
         [SerializeField]
         private string _noTransitionMessage;
 
+        [SerializeField]
+        private GameObject _interferingObject;
+
+        [SerializeField]
+        private bool _endGame;
+
+        [SerializeField]
+        private string _endMessage;
+
         private bool _canTeleport;
         private static bool _isTeleporting;
 
@@ -38,6 +50,11 @@ namespace Entities
             _dialogue = ServiceController_Game.ServiceLocator.GetService<DialogueService>();
             _input.OnActivate += Activate;
         }
+
+        // private void Update()
+        // {
+        //     Debug.Log(_canTeleport);
+        // }
 
         private void OnDestroy()
         {
@@ -62,6 +79,8 @@ namespace Entities
 
         private void Activate()
         {
+            Debug.Log("Activate Teleport");
+
             if (!_canTeleport || _isTeleporting)
                 return;
 
@@ -104,6 +123,20 @@ namespace Entities
             _player.SpriteRenderer.DOFade(0f, 1f);
             yield return new WaitForSeconds(1f);
 
+            if (_endGame)
+            {
+                Debug.Log("Enable player control");
+                // Возвращаем возможность взаимодействовать
+                _player.Rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
+                _input.Enabled = true;
+
+                _isTeleporting = false;
+                Debug.Log("Done");
+
+                OnEndGame?.Invoke(_endMessage);
+                yield break;
+            }
+
             Debug.Log("Teleporting");
             // Телепортация во второй тунель
             _player.transform.position = _nextTunnel.transform.position;
@@ -136,6 +169,11 @@ namespace Entities
         /// <returns>True, если найден хотя бы один объект с заданным тегом; иначе false.</returns>
         private bool LeafOff(string tag, Transform transformToCheck)
         {
+            if (_interferingObject)
+            {
+                return true;
+            }
+
             // Проверяем все дочерние объекты
             foreach (Transform child in transformToCheck)
             {

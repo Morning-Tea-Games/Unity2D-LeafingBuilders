@@ -177,7 +177,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1200073363
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -339749560, guid: cb1cff65364c79844b9279fe79f23802, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -209,7 +209,8 @@ MonoBehaviour:
   _nextTunnel: {fileID: 0}
   _player: {fileID: 0}
   _myBranch: {fileID: 0}
-  _noTransitionMessage: Service all the leaves in order to move on
+  _noTransitionMessage: Complete all tasks to move forward
+  _interferingObject: {fileID: 0}
 --- !u!70 &3138364633000242912
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
