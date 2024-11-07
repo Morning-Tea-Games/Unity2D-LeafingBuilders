@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using GameData;
 using Services;
@@ -9,6 +9,8 @@ namespace Entities
 {
     public class TunnelTransition : MonoBehaviour
     {
+        public event Action<string> OnEndGame;
+
         [SerializeField]
         private LayerMask _playerLayer;
 
@@ -29,6 +31,12 @@ namespace Entities
 
         [SerializeField]
         private GameObject _interferingObject;
+
+        [SerializeField]
+        private bool _endGame;
+
+        [SerializeField]
+        private string _endMessage;
 
         private bool _canTeleport;
         private static bool _isTeleporting;
@@ -107,6 +115,12 @@ namespace Entities
             // Затухание
             _player.SpriteRenderer.DOFade(0f, 1f);
             yield return new WaitForSeconds(1f);
+
+            if (_endGame)
+            {
+                OnEndGame?.Invoke(_endMessage);
+                yield break;
+            }
 
             Debug.Log("Teleporting");
             // Телепортация во второй тунель
